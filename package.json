@@ -1,0 +1,19 @@
+{
+  "name": "bankin-web-scrapping-challenge",
+  "version": "1.0.0",
+  "description": "A Casper js app for the bankin web scraping challenge",
+  "author": "Arthur Kirsz <arthurkirsz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "casperjs index.js",
+    "debug": "casperjs debug.js"
+  },
+  "dependencies": {
+    "casperjs": "^1.1.4",
+    "phantomjs": "^2.1.7"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
